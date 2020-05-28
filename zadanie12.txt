@@ -1,0 +1,85 @@
+//Первое
+import java.util.Scanner;
+
+public class SwitchDemo {
+public static void main(String[] args) {
+
+Scanner scan = new Scanner(System.in);
+
+int ArabInt = scan.nextInt();
+
+
+
+String Rome;
+switch (ArabInt) {
+case 1: Rome = "I";
+break;
+case 2: Rome = "II";
+break;
+case 3: Rome = "III";
+break;
+case 4: Rome = "IV";
+break;
+case 5: Rome = "V";
+break;
+case 6: Rome = "VI";
+break;
+case 7: Rome = "VII";
+break;
+case 8: Rome = "VIII";
+break;
+case 9: Rome = "IX";
+break;
+case 10: Rome = "X";
+break;
+case 11: Rome = "XI";
+break;
+case 12: Rome = "XII";
+break;
+case 13: Rome = "XIII";
+break;
+case 14: Rome = "XIV";
+break;
+case 15: Rome = "XV";
+break;
+case 16: Rome = "XVI";
+break;
+case 17: Rome = "ZVII";
+break;
+case 18: Rome = "XVIII";
+break;
+case 19: Rome = "XIX";
+break;
+case 20: Rome = "XX";
+break;
+case 21: Rome = "XXI";
+break;
+case 22: Rome = "XXII";
+break;
+case 23: Rome = "XXIII";
+break;
+case 24: Rome = "XXIV";
+break;
+case 25: Rome = "XXV";
+break;
+
+
+default: Rome = "NullPointer or Dismatch";
+break;
+}
+System.out.println(Rome);
+}
+}
+
+
+//Второе 
+public class Main {
+public static void main(String[] args) {
+
+for (int i = 1; i <= 999; i++) {
+if ((i % 10) == (i/100 % 10))
+System.out.println(i+" Палиндром");
+}
+
+}
+}
